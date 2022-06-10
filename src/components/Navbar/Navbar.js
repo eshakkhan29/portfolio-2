@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
 import logo from '../../images/ek-logo.png';
-const Navbar = ({children}) => {
+const Navbar = ({ children }) => {
     return (
         <>
             <div class="drawer drawer-end">
@@ -18,12 +18,12 @@ const Navbar = ({children}) => {
                         </div>
                         <div class="flex-none hidden lg:block">
                             <ul class="menu menu-horizontal">
-                                <li><NavLink to='/home'>Home</NavLink></li>
-                                <li><NavLink to='/about'>About</NavLink></li>
-                                <li><NavLink to='services'>service</NavLink></li>
-                                <li><NavLink to='portfolio'>Portfolio</NavLink></li>
-                                <li><NavLink to='blogs'>Blog</NavLink></li>
-                                <li><NavLink to='contact'>Contact</NavLink></li>
+                                <li><NavLink className="rounded-lg mx-2" to='/home'>Home</NavLink></li>
+                                <li><NavLink className="rounded-lg mx-2" to='/about'>About</NavLink></li>
+                                <li><NavLink className="rounded-lg mx-2" to='services'>service</NavLink></li>
+                                <li><NavLink className="rounded-lg mx-2" to='portfolio'>Portfolio</NavLink></li>
+                                <li><NavLink className="rounded-lg mx-2" to='blogs'>Blog</NavLink></li>
+                                <li><NavLink className="rounded-lg mx-2" to='contact'>Contact</NavLink></li>
                             </ul>
                         </div>
                     </div>
@@ -31,15 +31,14 @@ const Navbar = ({children}) => {
                 </div>
                 <div class="drawer-side">
                     <label for="my-drawer-3" class="drawer-overlay"></label>
-                    <ul class="menu p-4 overflow-y-auto w-80 bg-base-100">
-                        <li><NavLink to='/home'>Homre</NavLink></li>
+                    <ul class="menu p-4 overflow-y-auto w-60 bg-base-100">
+                        <li><NavLink to='/home'>Home</NavLink></li>
                         <li><NavLink to='/about'>About</NavLink></li>
                         <li><NavLink to='services'>service</NavLink></li>
                         <li><NavLink to='portfolio'>Portfolio</NavLink></li>
                         <li><NavLink to='blogs'>Blog</NavLink></li>
                         <li><NavLink to='contact'>Contact</NavLink></li>
                     </ul>
-
                 </div>
             </div>
         </>

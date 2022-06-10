@@ -1,7 +1,5 @@
 import React from 'react';
-import { BiCreditCardFront } from 'react-icons/bi';
-import { BsCodeSquare } from 'react-icons/bs';
-import { FaCode, FaDownload, FaMobile } from 'react-icons/fa';
+import { GrOverview } from 'react-icons/gr';
 import { useNavigate } from 'react-router-dom';
 import UseSite from '../Hook/UseSite';
 
@@ -26,7 +24,7 @@ const Portfolio = () => {
                                     <h2 class="card-title">{site.name}</h2>
                                     <p></p>
                                     <div class="card-actions justify-center">
-                                        <button className='btn btn-primary rounded btn-sm'><a target="_blanck" href={site.liveLink}>Live site</a></button>
+                                        <button className='btn btn-primary rounded btn-sm'><a target="_blanck" href={site.liveLink}> Live site</a></button>
                                         <button onClick={()=>navigate(`/details/${site.id}`)} className='btn btn-primary rounded btn-sm'>Detail</button>
                                     </div>
                                 </div>

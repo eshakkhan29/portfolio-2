@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { useParams } from 'react-router-dom';
-import { useQuery } from 'react-query';
+import { AiOutlineCaretRight } from 'react-icons/ai';
 
 const SiteDetails = () => {
 
@@ -98,13 +98,44 @@ const SiteDetails = () => {
     //     <h1>loooo</h1>
     //     </>
     // }
-    console.log(sites);
     const site = sites?.filter(site => site.id === id);
-    console.log(site);
+    const [data] = site;
     return (
-        <div>
-            <h1>{id}</h1>
-            <h1>Khan</h1>
+        <div className='lg:w-9/12 mx-auto px-3 lg:px-0 my-10'>
+            <h1 className='text-3xl text-primary font-medium py-10'>Project {data.name}</h1>
+            <div className='grid lg:grid-flow-row lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5'>
+                <div className='card'>
+                    <figure><img src={data.image} alt="" /></figure>
+                </div>
+                <div className='card'>
+                    <figure><img src={data.image} alt="" /></figure>
+                </div>
+                <div className='card'>
+                    <figure><img src={data.image} alt="" /></figure>
+                </div>
+            </div>
+            <div className='py-16 flex lg:flex-row flex-col gap-10'>
+                <div className='lg:w-1/3 flex flex-col gap-y-5'>
+                    <a target="_blanck" className='btn btn-primary' href={data?.liveLink}>Live site</a>
+                    <a target="_blanck" className='btn btn-primary' href={data?.client}>Client side Code link</a>
+                    <a target="_blanck" className='btn btn-primary' href={data?.server}>Server side Code link</a>
+                </div>
+                <div className='lg:w-2/3 lg:pl-10 pl-0'>
+                    <h2 className='text-4xl pb-2 font-bold'>{data?.name}</h2>
+                    <h3 className='text-2xl font-semibold text-primary'>Feature____________</h3>
+                    <div className='lg:pl-20 pl-0 py-4'>
+                        <p className='font-medium text-xl'><AiOutlineCaretRight className='inline' /> {data?.feature1}</p>
+                        <p className='font-medium text-xl'><AiOutlineCaretRight className='inline' /> {data?.feature2}</p>
+                        <p className='font-medium text-xl'><AiOutlineCaretRight className='inline' /> {data?.feature3}</p>
+                        <p className='font-medium text-xl'><AiOutlineCaretRight className='inline' /> {data?.feature4}</p>
+                        <p className='font-medium text-xl'><AiOutlineCaretRight className='inline' /> {data?.feature5}</p>
+                    </div>
+                    <h3 className='text-2xl font-semibold text-primary'>Technology____________</h3>
+                    <div className='lg:pl-20 pl-0 pt-4'>
+                        <p className='font-medium text-xl'><AiOutlineCaretRight className='inline' /> {data?.technology}</p>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };

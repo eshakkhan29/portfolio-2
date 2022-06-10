@@ -14,7 +14,7 @@ const Services = () => {
 
             <div className='py-10 grid md:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-5'>
 
-                <div class="hover:text-primary duration-300 card bg-base-100 shadow-xl">
+                <div class="hover:text-primary duration-300 card glass bg-base-100 shadow-xl">
                     <div class="card-body">
                         <span className='text-6xl'><FaCode /></span>
                         <h2 class="card-title my-3 text-3xl">Web Design</h2>
@@ -22,7 +22,7 @@ const Services = () => {
                     </div>
                 </div>
 
-                <div class="hover:text-primary duration-300 card bg-base-100 shadow-xl">
+                <div class="hover:text-primary duration-300 card glass bg-base-100 shadow-xl">
                     <div class="card-body">
                         <span className='text-6xl'><BsCodeSquare /></span>
                         <h2 class="card-title my-3 text-3xl">Well Documented Codes</h2>
@@ -30,7 +30,7 @@ const Services = () => {
                     </div>
                 </div>
 
-                <div class="hover:text-primary duration-300 card bg-base-100 shadow-xl">
+                <div class="hover:text-primary duration-300 card glass bg-base-100 shadow-xl">
                     <div class="card-body">
                         <span className='text-6xl'><FaMobile /></span>
                         <h2 class="card-title my-3 text-3xl">Perfect Responsive</h2>
@@ -38,7 +38,7 @@ const Services = () => {
                     </div>
                 </div>
 
-                <div class="hover:text-primary duration-300 card bg-base-100 shadow-xl">
+                <div class="hover:text-primary duration-300 card glass bg-base-100 shadow-xl">
                     <div class="card-body">
                         <span className='text-6xl'><FaDownload /></span>
                         <h2 class="card-title my-3 text-3xl">Fast Loading Speed</h2>
@@ -46,7 +46,7 @@ const Services = () => {
                     </div>
                 </div>
 
-                <div class="hover:text-primary duration-300 card bg-base-100 shadow-xl">
+                <div class="hover:text-primary duration-300 card glass bg-base-100 shadow-xl">
                     <div class="card-body">
                         <span className='text-6xl'><BiCreditCardFront /></span>
                         <h2 class="card-title my-3 text-3xl">Front-end Develop</h2>
@@ -54,7 +54,7 @@ const Services = () => {
                     </div>
                 </div>
 
-                <div class="hover:text-primary duration-300 card bg-base-100 shadow-xl">
+                <div class="hover:text-primary duration-300 card glass bg-base-100 shadow-xl">
                     <div class="card-body">
                         <span className='text-6xl'><BiCreditCardFront /></span>
                         <h2 class="card-title my-3 text-3xl">Back-end Develop</h2>

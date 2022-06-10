@@ -8,11 +8,7 @@ AOS.init();
 
 const About = () => {
     return (
-        <div 
-        data-aos="flip-down"
-        data-aos-duration="1500"
-
-          class="hero py-10 bg-white">
+        <div  class="hero py-10 bg-white">
             <div class="hero-content flex-col lg:flex-row-reverse">
                 <div className='lg:w-1/2'>
                     <div className='lg:pl-16'>

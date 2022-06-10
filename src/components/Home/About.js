@@ -31,7 +31,7 @@ const About = () => {
                 </div>
 
                 <div className='lg:w-1/2 relative'>
-                    <div className='absolute top-0 left-0 lg:w-2/6 lg:h-5/6 bg-primary'>
+                    <div className='absolute top-0 -left-24 lg:w-2/6 lg:h-5/6 bg-primary'>
                         <div className='border-b p-2 pl-4 text-white font-medium'>
                             <h3>name:</h3>
                             <h3>Eshak Khan</h3>

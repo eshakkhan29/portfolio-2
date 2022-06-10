@@ -12,7 +12,7 @@ const About = () => {
             <div class="hero-content flex-col lg:flex-row-reverse">
                 <div className='lg:w-1/2'>
                     <div className='lg:pl-16'>
-                        <h1 className='text-6xl font-bold border-b-4 pb-2 border-zinc-500 inline-block relative'>
+                        <h1 className='text-5xl font-bold border-b-4 pb-2 border-zinc-500 inline-block relative'>
                             About me
                             <span className='absolute text-transparent -top-1 left-0'>A<span className='border-b-8 z-10 border-primary'>bout</span> me</span>
                         </h1>
@@ -31,7 +31,7 @@ const About = () => {
                 </div>
 
                 <div className='lg:w-1/2 relative'>
-                    <div className='absolute top-0 -left-24 lg:w-2/6 lg:h-5/6 bg-primary'>
+                    <div className='lg:absolute lg:mb-0 mb-4 top-0 -left-24 lg:w-2/6 lg:h-5/6 bg-primary'>
                         <div className='border-b p-2 pl-4 text-white font-medium'>
                             <h3>name:</h3>
                             <h3>Eshak Khan</h3>

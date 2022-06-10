@@ -5,8 +5,9 @@ import { BiCreditCardFront } from 'react-icons/bi';
 
 const Services = () => {
     return (
-        <section className='lg:px-80 py-10'>
-            <h1 className='text-6xl font-bold border-b-4 pb-4 border-zinc-500 inline-block relative'>
+        <section className='lg:w-9/12 mx-auto py-10'>
+            
+            <h1 className='text-5xl font-bold border-b-4 pb-4 border-zinc-500 inline-block relative'>
                 My Services
                 <span className='absolute text-transparent -top-1 left-0'>M<span className='border-b-8 pb-2 z-10 border-primary'>y Serv</span> ices</span>
             </h1>

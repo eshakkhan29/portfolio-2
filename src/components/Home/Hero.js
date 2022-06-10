@@ -4,6 +4,9 @@ import { BsTelephone } from 'react-icons/bs';
 import { HiOutlineMail } from 'react-icons/hi';
 import About from './About';
 import Services from './Services';
+import Portfolio from './Portfolio';
+import Contact from './Contact';
+import Footer from '../Footer/Footer';
 const Hero = () => {
     return (
         <div>
@@ -32,6 +35,9 @@ const Hero = () => {
             </div>
             <About></About>
             <Services></Services>
+            <Portfolio></Portfolio>
+            <Contact></Contact>
+            <Footer></Footer>
         </div>
     );
 };

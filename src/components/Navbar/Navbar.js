@@ -6,8 +6,8 @@ const Navbar = ({ children }) => {
         <>
             <div class="drawer drawer-end">
                 <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
-                <div class="drawer-content flex flex-col">
-                    <div class="lg:px-80 navbar bg-white">
+                <div class="drawer-content bg-white flex flex-col">
+                    <div class="lg:w-9/12 mx-auto navbar">
                         <div class="flex-1 px-2 mx-2">
                             <img src={logo} alt="" />
                         </div>

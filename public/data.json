@@ -1,13 +1,7 @@
 [
-    //     https://i.ibb.co/LzKNZ2Z/agency.png
-    // https://i.ibb.co/72wprpW/bd-motors.png
-    // https://i.ibb.co/McXb4pc/dentis-zubayer.png
-    // https://i.ibb.co/18xF5tF/mobile-bazar.png
-    // https://i.ibb.co/T4z114p/nvisore-hero.png
-    // https://i.ibb.co/4459XKj/plaient-home.png
-    // https://i.ibb.co/6ZQgr8B/prosesore.png
     {
         "name": "PROCESSOR BUILDER",
+        "id":"1",
         "liveLink": "https://processor-builder.web.app/",
         "client": "https://github.com/eshakkhan29/PROCESSOR-BUILDER",
         "server": "https://github.com/eshakkhan29/PROCESSOR-BUILDER-SERVER",
@@ -21,6 +15,7 @@
     },
     {
         "name": "Dentist-Zubayer",
+        "id":"2",
         "liveLink": "https://dental-care-818e6.web.app/",
         "client": "https://github.com/eshakkhan29/dental",
         "server": "",
@@ -34,6 +29,7 @@
     },
     {
         "name": "BD Motors",
+        "id":"3",
         "liveLink": "https://bd-motors-a5d14.web.app/",
         "client": "https://github.com/eshakkhan29/bd-motors",
         "server": "https://github.com/eshakkhan29/bd-motors-server",
@@ -44,5 +40,47 @@
         "feature3": "Use of Firebase email-password login system and Google login with a single click.",
         "feature4": "wheen user lodging this site server automatic send a access token and saved in localStorage",
         "feature5": "u can update delivery product count by clicking button"
+    },
+    {
+        "name": "BD Motors",
+        "id":"4",
+        "liveLink": "https://react-plantie-assingment.netlify.app/",
+        "client": "https://github.com/eshakkhan29/plantie",
+        "server": "",
+        "image": "https://i.ibb.co/4459XKj/plaient-home.png",
+        "technology": "react js, react bootstrap, react Router.",
+        "feature1": "this page make using react router",
+        "feature2": "home page not showing all reviews",
+        "feature3": "mostly using this project routing",
+        "feature4": "active nav link",
+        "feature5": "data chart recharts"
+    },
+    {
+        "name": "Eplxe lab agancy",
+        "id":"5",
+        "liveLink": "https://eshakkhan29.github.io/day-13-14-agancy-landing-page/",
+        "client": "https://github.com/eshakkhan29/day-13-14-agancy-landing-page",
+        "server": "",
+        "image": "https://i.ibb.co/LzKNZ2Z/agency.png",
+        "technology": "this site make only using HTML and CSS",
+        "feature1": "making fixel ferfact design",
+        "feature2": "copmplex ui design with CSS3",
+        "feature3": "",
+        "feature4": "",
+        "feature5": ""
+    },
+    {
+        "name": "Eplxe lab agancy",
+        "id":"6",
+        "liveLink": "https://nvisor-client.netlify.app/",
+        "client": "https://github.com/eshakkhan29/Nvisor-client",
+        "server": "",
+        "image": "https://i.ibb.co/T4z114p/nvisore-hero.png",
+        "technology": "this site make only using HTML and CSS",
+        "feature1": "making fixel ferfact design",
+        "feature2": "copmplex ui design with CSS3",
+        "feature3": "mobile responsive",
+        "feature4": "",
+        "feature5": ""
     }
 ]

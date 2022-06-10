@@ -20,20 +20,21 @@ const Contact = () => {
                         <p>Chandpur Sadar, Chandpur</p>
                         <p className="mb-6">Bangladesh</p>
                     </div>
-                    <form novalidate="" className="flex border-none flex-col md:col-span-2 w-10/12 lg:w-7/12 mx-auto py-6 space-y-6 md:pt-28 md:px-6 ng-untouched ng-pristine ng-valid">
+                    <form action="https://formspree.io/f/xjvlzwpl"
+                        method="POST" novalidate="" className="flex border-none flex-col md:col-span-2 w-10/12 lg:w-7/12 mx-auto py-6 space-y-6 md:pt-28 md:px-6 ng-untouched ng-pristine ng-valid">
                         <label className="block">
                             <span className="mb-2 font-bold">Full name</span>
-                            <input type="text" placeholder="Leroy Jenkins" className="block w-full focus:ring-primary  rounded-md shadow-sm " />
+                            <input required name='name' type="text" placeholder="your name" className="block w-full focus:ring-primary  rounded-md shadow-sm " />
                         </label>
                         <label className="block">
                             <span className="mb-2 font-bold">Email address</span>
-                            <input type="email" placeholder="leroy@jenkins.com" className="block w-full focus:ring-primary rounded-md shadow-sm " />
+                            <input required name='email' type="email" placeholder="type your email" className="block w-full focus:ring-primary rounded-md shadow-sm " />
                         </label>
                         <label className="block">
                             <span className="mb-2 font-bold">Message</span>
-                            <textarea rows="3" className="block w-full focus:ring-primary rounded-md "></textarea>
+                            <textarea required name='message' rows="3" className="block w-full focus:ring-primary rounded-md "></textarea>
                         </label>
-                        <button type="button" className="btn btn-outline w-40 mx-auto btn-primary">Submit Message</button>
+                        <button type="submit" className="btn btn-outline w-40 mx-auto btn-primary">Sent Message</button>
                     </form>
                 </div>
             </section>

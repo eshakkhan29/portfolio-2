@@ -1,5 +1,5 @@
 import React from 'react';
-import eshakKhan from '../../images/protfolio-eshak.png';
+import eshakKhan from '../../images/cover.jpg';
 import { ImFacebook2, ImLinkedin } from 'react-icons/im';
 import { BsGithub } from 'react-icons/bs';
 import AOS from 'aos';
@@ -8,7 +8,7 @@ AOS.init();
 
 const About = () => {
     return (
-        <div  class="hero py-10 bg-white">
+        <div class="hero py-10 bg-white">
             <div class="hero-content flex-col lg:flex-row-reverse">
                 <div className='lg:w-1/2'>
                     <div className='lg:pl-16'>
@@ -31,31 +31,31 @@ const About = () => {
                 </div>
 
                 <div className='lg:w-1/2 relative'>
-                    <div className='lg:absolute lg:mb-0 mb-4 top-0 -left-24 lg:w-2/6 lg:h-5/6 bg-primary'>
-                        <div className='border-b p-2 pl-4 text-white font-medium'>
+                    <div className='lg:absolute lg:mb-0 mb-4 -top-8 -right-10 lg:w-5/12 lg:h-11/12 rounded-2xl glass bg-primary'>
+                        <div className='border-b p-2 text-center text-white font-medium'>
                             <h3>name:</h3>
-                            <h3>Eshak Khan</h3>
+                            <h3>Md. Eshak Khan</h3>
                         </div>
-                        <div className='border-b p-2 pl-4 text-white font-medium'>
+                        <div className='border-b p-2 text-center text-white font-medium'>
                             <h3>Birthday:</h3>
                             <h3>19/05/1996</h3>
                         </div>
-                        <div className='border-b p-2 pl-4 text-white font-medium'>
+                        <div className='border-b p-2 text-center text-white font-medium'>
                             <h3>Phone & Mail:</h3>
                             <h3>(+880) 1708730727</h3>
                             <h3>eshakkhan29@gmail.com</h3>
                         </div>
-                        <div className='border-b p-2 pl-4 text-white font-medium'>
+                        <div className='border-b p-2 text-center text-white font-medium'>
                             <h3>Address:</h3>
                             <h3>Chandour Sadar</h3>
                         </div>
-                        <div className='border-b p-2 pl-4 text-white font-medium'>
+                        <div className='p-2 text-center text-white font-medium'>
                             <h3>Nationality:</h3>
                             <h3>Bangladeshi</h3>
                         </div>
                     </div>
                     <div className='w-full'>
-                        <img className='lg:w-5/6' src={eshakKhan} alt="Eshak Khan" />
+                        <img className='rounded-2xl'  src={eshakKhan} alt="Eshak Khan" />
                     </div>
                 </div>
             </div>

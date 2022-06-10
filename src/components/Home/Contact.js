@@ -3,9 +3,9 @@ import React from 'react';
 const Contact = () => {
     return (
         <div>
-            <section className="py-6 bg-white text-black">
-                <div className="lg:w-9/12 mx-auto flex-col lg:flex lg:flex-row">
-                    <div className="py-6 md:py-12 md:px-6 lg:px-0 mx-auto px-10 border-none">
+            <section className="lg:w-9/12 mx-auto py-10 ">
+                <div className=" flex-col lg:flex lg:flex-row">
+                    <div className="md:py-12 md:px-6 lg:px-0 mx-auto px-10 border-none">
                         <div className='mb-10'>
                             <h1 className='text-5xl font-bold border-b-4 pb-4 border-zinc-500 inline-block relative'>
                                 Contact

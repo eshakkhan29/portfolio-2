@@ -31,7 +31,7 @@ const Hero = () => {
                         data-aos="fade-left"
                         data-aos-duration="1500"
                         data-aos-delay="300"
-                        src={eshakKhan} class="lg:w-1/2 rounded-lg shadow-1xl" alt='Eshak khan' />
+                        src={eshakKhan} class="lg:w-1/2 rounded-2xl shadow-1xl" alt='Eshak khan' />
                 </div>
             </div>
             <About></About>
@@ -39,7 +39,7 @@ const Hero = () => {
             <Skill></Skill>
             <Portfolio></Portfolio>
             <Contact></Contact>
-            <Footer></Footer>
+            <Footer></Footer>       
         </div>
     );
 };

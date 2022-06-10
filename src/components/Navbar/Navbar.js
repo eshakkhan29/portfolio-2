@@ -18,12 +18,12 @@ const Navbar = ({ children }) => {
                         </div>
                         <div class="flex-none hidden lg:block">
                             <ul class="menu menu-horizontal">
-                                <li><NavLink className="rounded-lg mx-2" to='/'>Home</NavLink></li>
-                                <li><NavLink className="rounded-lg mx-2" to='/about'>About</NavLink></li>
-                                <li><NavLink className="rounded-lg mx-2" to='services'>service</NavLink></li>
-                                <li><NavLink className="rounded-lg mx-2" to='portfolio'>Portfolio</NavLink></li>
-                                <li><NavLink className="rounded-lg mx-2" to='blogs'>Blog</NavLink></li>
-                                <li><NavLink className="rounded-lg mx-2" to='contact'>Contact</NavLink></li>
+                                <li><NavLink className="rounded-lg mx-2 font-bold" to='/'>Home</NavLink></li>
+                                <li><NavLink className="rounded-lg mx-2 font-bold" to='/about'>About</NavLink></li>
+                                <li><NavLink className="rounded-lg mx-2 font-bold" to='services'>service</NavLink></li>
+                                <li><NavLink className="rounded-lg mx-2 font-bold" to='portfolio'>Portfolio</NavLink></li>
+                                <li><NavLink className="rounded-lg mx-2 font-bold" to='blogs'>Blog</NavLink></li>
+                                <li><NavLink className="rounded-lg mx-2 font-bold" to='contact'>Contact</NavLink></li>
                             </ul>
                         </div>
                     </div>

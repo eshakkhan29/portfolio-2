@@ -11,12 +11,12 @@ const Footer = () => {
                     </div>
                     <div class="md:place-self-center md:justify-self-end">
                         <div class="grid grid-flow-col gap-4">
-                            <NavLink className="" to='/home'>Home</NavLink>
-                            <NavLink className="" to='/about'>About</NavLink>
-                            <NavLink className="" to='services'>service</NavLink>
-                            <NavLink className="" to='portfolio'>Portfolio</NavLink>
-                            <NavLink className="" to='blogs'>Blog</NavLink>
-                            <NavLink className="" to='contact'>Contact</NavLink>
+                            <NavLink className="font-semibold" to='/home'>Home</NavLink>
+                            <NavLink className="font-semibold" to='/about'>About</NavLink>
+                            <NavLink className="font-semibold" to='services'>service</NavLink>
+                            <NavLink className="font-semibold" to='portfolio'>Portfolio</NavLink>
+                            <NavLink className="font-semibold" to='blogs'>Blog</NavLink>
+                            <NavLink className="font-semibold" to='contact'>Contact</NavLink>
                         </div>
                     </div>
                 </footer>

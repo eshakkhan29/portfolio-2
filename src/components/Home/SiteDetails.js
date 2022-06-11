@@ -12,6 +12,8 @@ const SiteDetails = () => {
             "client": "https://github.com/eshakkhan29/PROCESSOR-BUILDER",
             "server": "https://github.com/eshakkhan29/PROCESSOR-BUILDER-SERVER",
             "image": "https://i.ibb.co/6ZQgr8B/prosesore.png",
+            "image2": "https://i.ibb.co/tXcmhDK/prosesore-2.png",
+            "image3": "https://i.ibb.co/T84X2t7/prosesore-3.png",
             "technology": "react js, react bootstrap, react Router, react toastify, firebase auth, express js, cors middleware, mongo DB, counterUp js",
             "feature1": "A nice processor buying website. Registered users can order Processor and manage them.",
             "feature2": "Established Admin and User-based separate dashboard. An admin can manage all the user's order also can add or remove a product.",
@@ -26,6 +28,8 @@ const SiteDetails = () => {
             "client": "https://github.com/eshakkhan29/dental",
             "server": "",
             "image": "https://i.ibb.co/McXb4pc/dentis-zubayer.png",
+            "image2": "https://i.ibb.co/kKf0z6Q/dental-2.png",
+            "image3": "https://i.ibb.co/9y2bXDc/dental-3.png",
             "technology": "react Bootstrap, react router, react toastify, react firebase hook, Firebase authentication",
             "feature1": "It is a single personal website.",
             "feature2": "Established Google authentication system with Firebase and email-password login system.",
@@ -40,6 +44,8 @@ const SiteDetails = () => {
             "client": "https://github.com/eshakkhan29/bd-motors",
             "server": "https://github.com/eshakkhan29/bd-motors-server",
             "image": "https://i.ibb.co/72wprpW/bd-motors.png",
+            "image2": "https://i.ibb.co/VDZMM9D/bdmorots-2.png",
+            "image3": "https://i.ibb.co/xhB1qVF/bdmotors-3.png",
             "technology": "react js, react bootstrap, react Router, react toastify, firebase auth, express js, mongo DB.",
             "feature1": "Update a product with quantity by clicking delivered and add quantity by restock.",
             "feature2": "Implementation of reacts private routing system. A user who is not logged in cannot update, manage or add product.",
@@ -54,6 +60,8 @@ const SiteDetails = () => {
             "client": "https://github.com/eshakkhan29/plantie",
             "server": "",
             "image": "https://i.ibb.co/4459XKj/plaient-home.png",
+            "image2": "https://i.ibb.co/R7Mv5Mk/plantie-2.png",
+            "image3": "https://i.ibb.co/MpDkKjP/plantie-3.png",
             "technology": "react js, react bootstrap, react Router.",
             "feature1": "this page make using react router",
             "feature2": "home page not showing all reviews",
@@ -68,6 +76,8 @@ const SiteDetails = () => {
             "client": "https://github.com/eshakkhan29/day-13-14-agancy-landing-page",
             "server": "",
             "image": "https://i.ibb.co/LzKNZ2Z/agency.png",
+            "image2": "https://i.ibb.co/6P4df34/agency-2.png",
+            "image3": "https://i.ibb.co/yqLD12x/agncy-3.png",
             "technology": "this site make only using HTML and CSS",
             "feature1": "making fixel ferfact design",
             "feature2": "copmplex ui design with CSS3",
@@ -82,6 +92,8 @@ const SiteDetails = () => {
             "client": "https://github.com/eshakkhan29/Nvisor-client",
             "server": "",
             "image": "https://i.ibb.co/T4z114p/nvisore-hero.png",
+            "image2": "https://i.ibb.co/68n5sqc/nvisore-servise.png",
+            "image3": "https://i.ibb.co/w4PqGWy/nvisore-team.png",
             "technology": "this site make only using HTML and CSS",
             "feature1": "making fixel ferfact design",
             "feature2": "copmplex ui design with CSS3",
@@ -108,10 +120,10 @@ const SiteDetails = () => {
                     <figure><img src={data.image} alt="" /></figure>
                 </div>
                 <div className='card'>
-                    <figure><img src={data.image} alt="" /></figure>
+                    <figure><img src={data.image2} alt="" /></figure>
                 </div>
                 <div className='card'>
-                    <figure><img src={data.image} alt="" /></figure>
+                    <figure><img src={data.image3} alt="" /></figure>
                 </div>
             </div>
             <div className='py-16 flex lg:flex-row flex-col gap-10'>

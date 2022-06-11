@@ -20,7 +20,7 @@ const Hero = () => {
                         className='lg:w-1/2'>
                         <h1 class="text-2xl font-medium"><span className='border-b-2 pb-1 border-primary'>HELLO</span>, MY NAME IS</h1>
                         <h1 class="text-5xl font-bold mt-3">Md. Eshak Khan</h1>
-                        <p class="pt-3 text-3xl ">Juniot React JS Developer</p>
+                        <p class="pt-3 text-3xl ">Junior React JS Developer</p>
                         <div className='my-4'>
                             <p><HiOutlineMail className='inline mr-2 my-2' /> eshakkhan29@gmail.com</p>
                             <p><BsTelephone className='inline mr-2' /> (+880) 1708730727</p>

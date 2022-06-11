@@ -50,7 +50,7 @@ const Services = () => {
                     <div class="card-body">
                         <span className='text-6xl'><BiCreditCardFront /></span>
                         <h2 class="card-title my-3 text-3xl">Front-end Develop</h2>
-                        <p className='font-medium text-black'>Hire top Front End Development Services from our elite global network, expertly matched to fit your most urgent business needs, on demand.</p>
+                        <p className='font-medium text-black'>Hire me top Front End Development Services  expertly matched to fit your most urgent business needs, on demand.</p>
                     </div>
                 </div>
 
@@ -58,7 +58,7 @@ const Services = () => {
                     <div class="card-body">
                         <span className='text-6xl'><BiCreditCardFront /></span>
                         <h2 class="card-title my-3 text-3xl">Back-end Develop</h2>
-                        <p className='font-medium text-black'>Our skilled development team specializes in providing high-quality backend services for various businesses. Our team of backend experts has a deep knowledge</p>
+                        <p className='font-medium text-black'>My skilled development team specializes in providing high-quality backend services for various businesses. I have  deep knowledge of backend</p>
                     </div>
                 </div>
 

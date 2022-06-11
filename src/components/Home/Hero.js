@@ -1,5 +1,6 @@
 import React from 'react';
 import eshakKhan from '../../images/protfolio-eshak.png';
+import Resume from '../../images/ESHAK_KHAN_RESUME.pdf';
 import { BsTelephone } from 'react-icons/bs';
 import { HiOutlineMail } from 'react-icons/hi';
 import About from './About';
@@ -25,7 +26,7 @@ const Hero = () => {
                             <p><HiOutlineMail className='inline mr-2 my-2' /> eshakkhan29@gmail.com</p>
                             <p><BsTelephone className='inline mr-2' /> (+880) 1708730727</p>
                         </div>
-                        <button class="btn btn-primary"><a download='ESHAK_KHAN_RESUME.pdf' href="../../images/ESHAK_KHAN_RESUME.pdf">Download Resume</a></button>
+                        <button><a class="btn btn-primary" href="ESHAK_KHAN_RESUME.pdf" download>Download Resume</a></button>
                     </div>
                     <img
                         data-aos="fade-left"
@@ -39,7 +40,7 @@ const Hero = () => {
             <Skill></Skill>
             <Portfolio></Portfolio>
             <Contact></Contact>
-            <Footer></Footer>       
+            <Footer></Footer>
         </div>
     );
 };

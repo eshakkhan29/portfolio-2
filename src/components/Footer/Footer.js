@@ -3,25 +3,25 @@ import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <div className="border-t border-gray-400">  
-            <div className="">
-                <footer class="footer w-9/12 mx-auto py-4  border-gray-400">
-                    <div class="items-center grid-flow-col">
+        <footer className="flex items-center border-t h-28 border-gray-400">
+            <div className="lg:w-9/12 mx-auto">
+                <div className='flex lg:flex-row flex-col items-center gap-5 justify-around'>
+                    <div class="">
                         <p>Eshak Khan © All Right Reserved</p>
                     </div>
-                    <div class="md:place-self-center md:justify-self-end">
-                        <div class="grid grid-flow-col gap-4">
-                            <NavLink className="font-semibold" to='/home'>Home</NavLink>
-                            <NavLink className="font-semibold" to='/about'>About</NavLink>
-                            <NavLink className="font-semibold" to='services'>service</NavLink>
-                            <NavLink className="font-semibold" to='portfolio'>Portfolio</NavLink>
-                            <NavLink className="font-semibold" to='blogs'>Blog</NavLink>
-                            <NavLink className="font-semibold" to='contact'>Contact</NavLink>
+                    <div class="">
+                        <div class="flex lg:gap-3 gap-1">
+                            <NavLink className="font-semibold hover:text-primary" to='/home'>Home</NavLink>
+                            <NavLink className="font-semibold hover:text-primary" to='/about'>About</NavLink>
+                            <NavLink className="font-semibold hover:text-primary" to='services'>service</NavLink>
+                            <NavLink className="font-semibold hover:text-primary" to='portfolio'>Portfolio</NavLink>
+                            <NavLink className="font-semibold hover:text-primary" to='blogs'>Blog</NavLink>
+                            <NavLink className="font-semibold hover:text-primary" to='contact'>Contact</NavLink>
                         </div>
                     </div>
-                </footer>
+                </div>
             </div>
-        </div>
+        </footer>
     );
 };
 

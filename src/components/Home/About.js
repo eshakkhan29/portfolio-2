@@ -31,7 +31,7 @@ const About = () => {
                 </div>
 
                 <div className='lg:w-1/2 relative'>
-                    <div className='lg:absolute lg:mb-0 mb-4 -top-8 -right-10 lg:w-5/12 lg:h-11/12 rounded-2xl glass bg-primary'>
+                    <div className='lg:absolute lg:mb-0 mb-4 -top-8 -right-10 lg:w-5/12 lg:h-11/12 rounded-2xl bg-primary'>
                         <div className='border-b p-2 text-center text-white font-medium'>
                             <h3>name:</h3>
                             <h3>Md. Eshak Khan</h3>
@@ -47,7 +47,7 @@ const About = () => {
                         </div>
                         <div className='border-b p-2 text-center text-white font-medium'>
                             <h3>Address:</h3>
-                            <h3>Chandour Sadar</h3>
+                            <h3>Chandpur Sadar</h3>
                         </div>
                         <div className='p-2 text-center text-white font-medium'>
                             <h3>Nationality:</h3>

@@ -12,8 +12,8 @@ import Skill from './Skills';
 const Hero = () => {
     return (
         <div>
-            <div class="hero bg-base-100">
-                <div class="hero-content flex-col lg:flex-row">
+            <div class="hero py-10 bg-base-100">
+                <div class=" flex py-10 flex-col items-center lg:px-0 px-3 lg:gap-0 gap-5 lg:flex-row">
                     <div
                         data-aos="fade-right"
                         data-aos-duration="1500"

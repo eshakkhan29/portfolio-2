@@ -1,5 +1,4 @@
 import React from 'react';
-import { GrOverview } from 'react-icons/gr';
 import { useNavigate } from 'react-router-dom';
 import UseSite from '../Hook/UseSite';
 
@@ -19,7 +18,7 @@ const Portfolio = () => {
                     sites.map((site, i) =>
                         <div className='overflow-hidden' key={i}>
                             <div class="card rounded-3xl card-compact bg-base-100">
-                                <figure><img className='w-full hover:scale-110 duration-300' src={site.image} alt="Shoes" /></figure>
+                                <figure><img className='w-full hover:scale-90 rounded-3xl duration-300' src={site.image} alt="site" /></figure>
                                 <div class="card-body">
                                     <h2 class="card-title">{site.name}</h2>
                                     <p></p>

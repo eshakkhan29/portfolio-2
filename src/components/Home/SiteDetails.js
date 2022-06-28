@@ -54,7 +54,7 @@ const SiteDetails = () => {
             "feature5": "u can update delivery product count by clicking button"
         },
         {
-            "name": "BD Motors",
+            "name": "Plantie",
             "id": "4",
             "liveLink": "https://react-plantie-assingment.netlify.app/",
             "client": "https://github.com/eshakkhan29/plantie",

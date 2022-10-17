@@ -18,13 +18,14 @@ const Portfolio = () => {
                     sites.map((site, i) =>
                         <div className='overflow-hidden' key={i}>
                             <div class="card rounded-3xl card-compact bg-base-100">
-                                <figure><img className='w-full hover:scale-90 rounded-3xl duration-300' src={site.image} alt="site" /></figure>
+                                <figure><img className='w-full hover:scale-90 hover:rounded-3xl duration-300' src={site.image} alt="site" /></figure>
                                 <div class="card-body">
                                     <h2 class="card-title">{site.name}</h2>
-                                    <p></p>
+                                    <p className='my-2'><span className='font-medium'>technology: </span> {site.technology}</p>
                                     <div class="card-actions flex gap-10 justify-center">
-                                        <button className='btn btn-primary rounded'><a target="_blanck" href={site.liveLink}>Visit website</a></button>
-                                        <button onClick={()=>navigate(`/details/${site.id}`)} className='btn btn-secondary btn-outline rounded'>view Detail</button>
+                                        <button className='btn btn-primary rounded'><a target="_blanck" href={site.liveLink}>Live site</a></button>
+                                        <button className='btn btn-secondary btn-outline rounded'><a target="_blanck" href={site.client}>GitHub</a></button>
+                                        {site.server && <button onClick={() => navigate(`/details/${site.id}`)} className='btn btn-secondary btn-outline rounded'>Server Code</button>}
                                     </div>
                                 </div>
                             </div>

@@ -22,8 +22,7 @@ const About = () => {
                         <div className='flex items-center gap-10'>
                             <h3 className='text-3xl font-semibold py-6'>Connect With me:</h3>
                             <div className='flex gap-10 text-3xl'>
-                                <a target='_Blanck' className='hover:text-primary' href="https://www.linkedin.com/in/eskkn/"><ImLinkedin /></a>
-                                <a target='_Blanck' className='hover:text-primary' href="https://www.facebook.com/eskkn"><ImFacebook2 /></a>
+                                <a target='_Blanck' className='hover:text-primary' href="https://www.linkedin.com/in/eshak-khan/"><ImLinkedin /></a>
                                 <a target='_Blanck' className='hover:text-primary' href="https://github.com/eshakkhan29"><BsGithub /></a>
                             </div>
                         </div>

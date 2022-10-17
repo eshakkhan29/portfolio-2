@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="lg:w-9/12 mx-auto">
                 <div className='flex lg:flex-row flex-col items-center gap-5 justify-around'>
                     <div class="">
-                        <p>Eshak Khan © All Right Reserved</p>
+                        <p>Eshak Khan © All Right Reserved {new Date().getFullYear()}</p>
                     </div>
                     <div class="">
                         <div class="flex lg:gap-3 gap-1">
